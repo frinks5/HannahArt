@@ -1,0 +1,50 @@
+Try this on picture
+
+.one {
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: 300px;
+}
+
+
+
+
+
+Some advice on what type of project is valued on your resume as shared by alum 
+shanibanshee via another post on LinkedIn.
+
+LinkedIn post https://www.linkedin.com/posts/meet-jason-humphrey_softwareengineering-activity-6783784395351322624-oP0N
+
+"Hey Junior Engineers,
+
+Do you feel like you don't have good projects?
+
+Here's 1 idea that takes 3 hours to do, but will be such a 🔥 bullet point.
+
+Pick something you really like: Boxing, Beyonce, New York City History, poems by Rumi... you get the picture.
+
+Make a static site that:
+
+-Uses semantic HTML & flexbox
+
+-Be able to view this on any screen size
+
+-Shrink the browser window and it still looks good
+
+Remember, we care a hell of a lot more about the basics and going deeper into that than the new framework of the day.
+
+Then, validate the HTML and CSS using W3C Markup Validation. Make the recommended changes. Finally, run a performance test using Google PageSpeed Insights. Look at the opportunities to increase performance. Record the metrics before and after you make the suggested changes.
+
+You'll now have 3 🔥 bullet points:
+
+Reduced largest contentful paint by X% from X seconds to X seconds by running web performance test to identify opportunities to speed up the application.
+
+Refactored for best practices by validating HTML and CSS using W3C Markup Validation Service.
+
+Optimized design for 8 screen sizes (desktop and mobile) using Responsively app, flexbox, and media queries.
+
+I'd pick this over 90% of resumes that superficially talk about a CRUD app."
+
+
+Jason Humphrey on LinkedIn: #softwareengineering | 36 comments
+Hey Junior Engineers, Do you feel like you don't have good projects? Here's 1 idea that takes 3 hours to do, but will be such a 🔥 bullet point. Pick... 36 comments on LinkedIn
