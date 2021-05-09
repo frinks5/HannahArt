@@ -4,8 +4,6 @@ html, body {
 }
 
 header {
-    background-color: #b0b7c2;
-    border: 2px solid black;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -19,59 +17,59 @@ h1 {
 
 section {
     display: flex;
-    gap: 5em;
+    padding: 10px;
 }
 
 .bio {
-    background-color: black;
-    color: white;   
+    display: flex;
+    background-color: #ffccaa;
+    justify-content:center;
 }
 
 .hannahBioImage {
-    width: 100%;
+    width: 35%;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
 .hannahBioText {
-    width: 100%;
+    width: 35%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .hannahBioP {
-    font-size: large;
     width: 80%;
 }
 
 .largeImage {
     width: 100%;
-    max-width: 300px;
+    max-width: 450px;
     min-width: 200px;
     margin: 10px;
 }
-
-.sectionHeader {
-    display: flex;
-    justify-content:center;
-    align-items: flex-end;
-    height: 100px;
+.rowTitle {
+    align-self: center;
+    margin-right: auto;
+    width: auto;
+    font-family: 'Abril Fatface';
+    font-size:x-large;
 }
 
 .squareImageSection {
     display: flex;
-    align-items:center;
-    justify-content: space-evenly;
+    justify-content:flex-end;
     flex-wrap: wrap;
-    border: 2px solid #979A9A;
-    border-radius: 50px 20px;
+    margin: 50px 100px;
 }
 
 .squareImage {
-    width: 200px;
-    padding: 20px;
+    width: 300px;
+    margin: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
 }
 
 footer {
