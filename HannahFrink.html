@@ -6,13 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hannah Frink</title>
     <link rel="stylesheet" href="hannahfrink.css">
-    <script src="./HannahArt.js" type="text/javascript"></script>
+    <script src="./HannahFrink.js" type="text/javascript"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Abril +Fatface&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
+
+    <section class="modalSection" id="fullSizeModal">
+        <span class="modalClose" onclick="closeClick()">&times;</span>
+        <img class="modalLargeImage" 
+        id="modalFullImageSrc" 
+        alt="full size image">
+        <div id="modalFullImageName"></div>
+    </section>
 
     <header>
         <h1>Hannah Frink - Artist in Training</h1>
@@ -33,8 +41,6 @@
         </div>
     </section>
 
-
-
     <section class="sectionHeader">
     </section>
     <section class="squareImageSection">
@@ -46,7 +52,12 @@
                 PASTELS
             </h2>
         </div>
-        <img class="squareImage" src="./SquareArt/Ava and other square.jpg" alt="Ava and other image">
+        <img 
+            class="squareImage" 
+            src="./SquareArt/Ava and other square.jpg" 
+            alt="Ava and other" 
+            onclick="clickSquareImage('Ava and other')">
+
         <img class="squareImage" src="./SquareArt/Crying square.jpg" alt="crying face image">
         <img class="squareImage" src="./SquareArt/pastel square.jpg" alt="Pastel face image">
     </section>
@@ -72,6 +83,7 @@
         <img class="squareImage" src="./SquareArt/large elf square.jpg" alt="large elf image">
         <img class="squareImage" src="./SquareArt/elf square.jpg" alt="elf image">
     </section>
+
 
     <footer>
         <img class="linkImage" src='./LinkArt/email.png' alt='email link'>
