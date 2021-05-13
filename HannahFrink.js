@@ -1,6 +1,6 @@
 console.log('in javascript');
 
-function clickSquareImage(squareImageName) {
+function clickSquareImage(squareImageName, optMedia = "") {
 
     console.log("in clickSquareImage");
     var modal = document.getElementById("fullSizeModal");
@@ -11,7 +11,7 @@ function clickSquareImage(squareImageName) {
     modalImage.src = imageFileName;
  
     var captionText = document.getElementById("modalFullImageName");
-    captionText.innerHTML = squareImageName;
+    captionText.innerHTML = squareImageName + optMedia;
 
 }
 

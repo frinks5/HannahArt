@@ -10,6 +10,10 @@ header {
     justify-content: center;
 }
 
+.topOfPageColor {
+    background-color: #ffccaa;
+}
+
 h1 {
     font-family: 'Abril Fatface', Times, serif;
     padding: 5px;
@@ -23,7 +27,6 @@ section {
 
 .bio {
     display: flex;
-    background-color: #ffccaa;
     justify-content:center;
 }
 
@@ -121,8 +124,8 @@ footer {
 .modalLargeImage {
     margin: auto;
     display: block;
-    width: 80%;
-    max-width: 700px;
+    height: 80%;
+    max-height: 700px;
 }
 
 #modalFullImageName {
