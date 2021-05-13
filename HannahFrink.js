@@ -12,9 +12,7 @@ function clickSquareImage(squareImageName, optMedia = "") {
  
     var captionText = document.getElementById("modalFullImageName");
     captionText.innerHTML = squareImageName + optMedia;
-
 }
-
 
 function closeClick() {
     console.log("in closeClick");
